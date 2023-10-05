@@ -1,4 +1,4 @@
-a, b = input().split()  # a와 b를 입력받아 split를 사용해 배열하고
+a, b = map(int, input().split())  # a와 b를 입력받아 split를 사용해 배열하고
 
 a = int(a)
 b = int(b) # a와 b를 int로 인식하게 한다
